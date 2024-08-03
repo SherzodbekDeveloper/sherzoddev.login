@@ -1,0 +1,25 @@
+
+body{
+    background: white;
+    padding: 40px 0px;
+    text-align: center;
+}
+form input{
+    margin: 20px 0px;
+}
+  
+.wrapper{
+    margin: auto;
+    width: 80%;
+}
+  
+#btn{
+    width: 100%;
+}
+  
+
+  
+
+  
+
+  /*# sourceMappingURL=style.css.map */
