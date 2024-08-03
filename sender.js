@@ -4,6 +4,7 @@ var telegram_bot_id = "7298772287:AAFqF9GuuuAhrGQDP-WBCo0WZm2Bb4KOzaA";
 var chat_id = '@sherzodeveloperMessages';
 var u_name, email, message;
 var ready = function () {
+   
     u_name = document.getElementById("name").value;
     email = document.getElementById("email").value;
     message = document.getElementById("message").value;
@@ -11,6 +12,8 @@ var ready = function () {
 };
 var sender = function () {
     ready();
+    let p = document.getElementById('p')
+    p.innerHTML = "Malumot Yuborildi✅"
     var settings = {
         "async": true,
         "crossDomain": true,
